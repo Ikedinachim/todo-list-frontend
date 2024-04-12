@@ -1,0 +1,79 @@
+.section-one{
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+
+}
+.section-two{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+
+}
+.section-two h2{
+    color:#232164;
+}
+.btn{
+    background-color: #232164;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    /* padding: 13px 160px; */
+    padding: 13px 0px;
+    width: 100%;
+    /* width: 35rem;
+    height: 70px; */
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.act-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8E8E8E;
+    font-size: 18px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+.act-div span{
+    color: #232164;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.act-div span:hover{
+    cursor: pointer;
+}
+.sign-up-div{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text-div{
+    width: 400px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}

@@ -1,0 +1,37 @@
+.task-item-container{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px auto;
+}
+.task-item-container p{
+    margin: 0px;
+}
+.date-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.date-item h1{
+    margin: 0px;
+}
+.date-item h2{
+    margin: 0px;
+    font-size: 13px;
+}
+.class-item{
+    width: 80%;
+    margin: 0px 12px;
+}
+
+.class-item hr{
+    margin: 0px;
+    background: #86D19B;
+
+}
